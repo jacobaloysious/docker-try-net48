@@ -5,4 +5,6 @@ Try a docker dot net 4.8 console app inside a windows container
 $docker build -t testapp .   
 
 ### How do you run:   
-$docker run --rm -v <<localRepDir>>\jacapp\bin\Debug:c:\myapp\ testapp
+$docker run --rm -v <\<localRepDir\>\>\jacapp\bin\Debug:c:\myapp\ testapp
+
+example: $docker run --rm -v D:\dev\dkr\jacapp\jacapp\bin\Debug:c:\myapp\ testapp
